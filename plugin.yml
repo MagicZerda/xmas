@@ -1,0 +1,28 @@
+name: X-mas
+version: 0.01
+author: MagicZerda
+main: de.magiczerda.xmas.plugin.Plugin
+
+api-version: 1.13
+
+commands:
+  xmas:
+    description: See args
+    usage: /<command>
+    permission: xmas.administrative
+  gift:
+    description: Give someone christmas presents with this command!
+    usage: /<command> [Player]
+  xwand:
+    description: Gives the player the wand to manipulate the christmas tree that will spawn on christmas
+    usage: /<command>
+    permission: xmas.administrative
+  xul:
+    description: Uploads the selected schematic to the database; this schematic will be pasted everywhere a sapling was planted. Make sure there is exactly one chest in the selected area which you look at while typing this command!
+    usage: /<command>
+    permissions: xmas.administrative
+
+permissions:
+  xmas.administrative:
+    description: Allows you to start and end the X-mas event and upload the schematic
+    default: op
