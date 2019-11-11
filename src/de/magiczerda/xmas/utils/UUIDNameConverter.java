@@ -14,7 +14,7 @@ import org.json.simple.parser.ParseException;
 public class UUIDNameConverter {
 	
 	/**
-	 * These two methods was designed by Proxygames14.
+	 * These two methods were designed by Proxygames14.
 	 * https://bukkit.org/threads/how-to-convert-uuid-to-name-and-name-to-uuid-uising-mojang-api.460828/
 	 * 
 	 * @param uuid
